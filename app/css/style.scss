@@ -861,6 +861,8 @@ $playfair-display: "Playfair Display";
         width: 100%;
         margin-top: 130px;
         background-color: #f7f7f4;
+        padding: 20px;
+        box-sizing: border-box;
         .footer__content {
             margin-left: 400px;
 
@@ -905,5 +907,416 @@ $playfair-display: "Playfair Display";
                 }
             }
         }
+    }
+}
+
+@media (max-width: 320px) {
+    .main-container {
+        height: max-content;
+        max-width: 100%;
+        .main-container__main-top-line {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            height: max-content;
+
+            .main-top-line__header-logo {
+                margin: 0 auto;
+            }
+            .main-top-line__header-links {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                margin: 0 auto;
+            }
+            .main-top-line__buttons {
+                display: flex;
+                flex-direction: column;
+                height: max-content;
+                margin: 0 auto;
+
+                .main-top-line__buttons__watch-demo-button {
+                    margin: 10px 0;
+                }
+            }
+        }
+        .main-container__section-hero {
+            flex-direction: column;
+            .section-hero__hero-text {
+                margin: 0;
+                .hero-text__h2 {
+                    font-family: $playfair-display;
+                    line-height: 52px;
+                    font-size: 35px;
+                    height: 104px;
+                    width: 79%;
+                    margin: 0 auto;
+                    margin-bottom: 30px;
+                }
+                .hero-text__description {
+                    margin: 0;
+                    margin-bottom: 30px;
+                    margin-top: 150px;
+                    .description__description-p {
+                        margin: 0 auto;
+                        font-size: 19px;
+                        line-height: 28px;
+                        color: #414141;
+                        width: 80%;
+                    }
+                }
+                .hero-text__interactive-element {
+                    margin: 0 auto;
+                    margin-left: -20px;
+                    .interactive-element__p {
+                        font-size: 19px;
+                        line-height: 28px;
+                        color: #414141;
+                        .interactive-element__p__span {
+                            margin-left: 10px;
+                        }
+                        &:nth-child(1) {
+                            font-weight: 700;
+                        }
+                        &:nth-child(2) {
+                            margin-left: 70px;
+                        }
+                    }
+                }
+                .hero-text__buttons {
+                    display: flex;
+                    flex-direction: column;
+                    margin: 0 auto;
+
+                    .hero-text__buttons__button-primary {
+                        margin: 10px 0 10px 0;
+                    }
+                    .hero-text__buttons__button-secondary {
+                        margin: 10px 0 10px 0;
+                    }
+                }
+            }
+            .section-hero__hero-bg-image {
+                background: url(https://s3-alpha-sig.figma.com/img/f8a7/0d14/0baf60c723737eaa1506d9b5755dd81b?Expires=1613952000&Signature=dxUy-NtdEQIP71UC1jqzRABhGcEMw1bsTu5fbipYzVydq7X6804-YTnfnnaGIflqLdJGmlhoM0PKI0MV~VOoISYSd4~GaAEhNGCnfNrFmlBknzbOkla1UeWp16LnHDFGKSi4UaXACGglfNjgDhEwGD55-NC6LH10gjg0Tg-KdRkkziXEjvNGf-VOhMTzs1BnSiqz19lGy6Cwc9k~E-6bm00BgB~EEKKYgudqYg7bKGQCpEa7mpU~0DB~h09eb7B6R-HwLVCVKWIVHyNwgXHi4bTgta2d1W37e4UI0g0UDFMo3jTbn77TPD26yFN9pXecEqddPgWJIzfbQgZf8aBVpw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+                width: 315px;
+                height: 315px;
+                background-size: cover;
+                margin: 0 auto;
+            }
+        }
+        .main-container__section-promo {
+            display: flex;
+            flex-direction: column;
+
+            .section-promo__figure {
+                margin-top: -100px;
+                margin: 0 auto;
+                .section-promo__figure__svg {
+                    margin: -1px 0;
+                }
+                #section-promo__figure__svg1 {
+                    position: relative;
+                    left: 97px;
+                    top: 96px;
+                }
+            }
+            .section-promo__promo-title {
+                width: 100%;
+                margin-left: -100px;
+                .promo-title__h2 {
+                    font-size: 28px;
+                    width: 100%;
+                    margin: 0 auto;
+                }
+            }
+        }
+        .main-container__section-about {
+            .section-about__collaboration {
+                padding: 0;
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                .collaboration__messanger-imitation {
+                    padding: 0;
+                    margin: 0;
+                    width: 100%;
+                    margin-left: -14px;
+                    .messanger-imitation__top-line {
+                        .messanger-imitation__svg {
+                            position: relative;
+                            left: 2%;
+                            top: -65%;
+                            width: 40px;
+                            height: 40px;
+                        }
+                        .top-line__name-of-interlocutor {
+                            margin-top: -45px;
+                        }
+                    }
+
+                    .messanger-imitation__body-of-messanger {
+                        .body-of-messanger__tooltip-menu {
+                            left: 50px;
+                        }
+                    }
+                }
+                .collaboration__red-circle-svg {
+                    width: 200px;
+                }
+
+                .collaboration__description {
+                    width: 100%;
+                    top: 30%;
+                    position: relative;
+                    left: 0%;
+                    .collaboration__description__h2 {
+                        text-align: center;
+                    }
+                    .collaboration__description__p {
+                        text-align: center;
+                        width: 100%;
+                    }
+                    .collaboration__description__button {
+                        width: 215px;
+                        display: flex;
+                        justify-content: center;
+                        margin: 0 auto;
+                        margin-top: 20px;
+                        padding: 20px;
+                        padding-bottom: 40px;
+                    }
+                }
+            }
+        }
+        .main-container__section-manage-your-work {
+            padding: 5px;
+            margin: 0 auto;
+            margin-top: 480px;
+            width: 100%;
+            .section-manage-your-work__main-frame {
+                margin-left: -80px;
+                flex-direction: column;
+
+                .section-manage-your-work__description-manage-your-work {
+                    .description-manage-your-work__h2 {
+                        font-size: 44px;
+                        width: 100%;
+                        text-align: center;
+                        margin: 0 auto;
+                    }
+
+                    .description-manage-your-work__p {
+                        width: 100%;
+                        font-size: 20px;
+                        margin: 0 auto;
+                        text-align: center;
+                    }
+
+                    .description-manage-your-work__button {
+                        margin: 0 auto;
+                        margin-top: 30px;
+                        margin-left: 35px;
+                    }
+                }
+                .section-manage-your-work__bg-image {
+                    width: 380px;
+                    height: 400px;
+                    background-size: cover;
+                    margin-left: 13px;
+                    margin-top: 20px;
+                }
+            }
+
+            .section-manage-your-work__elements {
+                width: 100%;
+                flex-direction: column;
+
+                .elements__day-planner {
+                    text-align: center;
+                    margin: 10px 50px 10px 50px;
+                }
+                .elements__task-list {
+                    text-align: center;
+                    margin: 10px 50px 10px 50px;
+                }
+                .elements__workload {
+                    text-align: center;
+                    margin: 10px 50px 10px 50px;
+                }
+            }
+        }
+        .main-container__section-motivation {
+            width: 100%;
+            margin-top: 130px;
+            .section-motivation__main-frame {
+                flex-direction: column;
+                .section-motivation__main-frame__bg {
+                    width: 300px;
+                    height: 400px;
+                    margin-left: 13px;
+                    margin-top: 20px;
+                    order: 1;
+                }
+                .section-motivation__main-frame__description {
+                    margin: 30px;
+                    order: 0;
+
+                    .main-frame__description__h2 {
+                        font-size: 44px;
+                    }
+                    .main-frame__description__p {
+                        width: 100%;
+                        margin-top: 30px;
+                    }
+                }
+            }
+
+            .section-motivation__elements {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+
+                .elements__perfomance {
+                    text-align: center;
+                    margin: 50px;
+                    font-family: $open-sans;
+
+                    .perfomance__icon {
+                        font-size: 4em;
+                        color: #69a08a;
+                        margin: 10px 0 10px 0;
+                    }
+
+                    .perfomance__h2 {
+                        font-family: $playfair-display;
+                        font-size: 24px;
+                        margin: 10px 0 10px 0;
+                    }
+
+                    .perfomance__p {
+                        width: 207px;
+                        margin: 10px 0 10px 0;
+                    }
+                }
+                .elements__appreciation {
+                    text-align: center;
+                    margin: 50px;
+                    font-family: $open-sans;
+
+                    .appreciation__icon {
+                        font-size: 4em;
+                        color: #69a08a;
+                        margin: 10px 0 10px 0;
+                        margin: 10px 0 10px 0;
+                    }
+
+                    .appreciation__h2 {
+                        font-family: $playfair-display;
+                        font-size: 24px;
+                        margin: 10px 0 10px 0;
+                    }
+
+                    .appreciation__p {
+                        width: 207px;
+                        margin: 10px 0 10px 0;
+                    }
+                }
+                .elements__feedback {
+                    text-align: center;
+                    margin: 50px;
+                    font-family: $open-sans;
+
+                    .feedback__icon {
+                        font-size: 4em;
+                        color: #69a08a;
+                        margin: 10px 0 10px 0;
+                        margin: 10px 0 10px 0;
+                    }
+
+                    .feedback__h2 {
+                        font-family: $playfair-display;
+                        font-size: 24px;
+                        margin: 10px 0 10px 0;
+                    }
+
+                    .feedback__p {
+                        width: 207px;
+                        margin: 10px 0 10px 0;
+                    }
+                }
+            }
+        }
+        .main-container__sign-up {
+            .sign-up__section-title {
+                flex-direction: column;
+                .sign-up__section-title__svg {
+                    display: flex;
+                    width: max-content;
+                    margin: 0 auto;
+                    .sign-up__section-title__svg__three-circles {
+                        display: flex;
+                        flex-direction: column;
+                    }
+                }
+                .section-title__text {
+                    .section-title__text__h2 {
+                        width: 100%;
+                        margin-left: -85px;
+                    }
+                    .section-title__text__p {
+                        width: 100%;
+                        margin-left: -85px;
+                    }
+                }
+            }
+
+            .sign-up__form {
+                margin-top: -20px;
+                .sign-up__form__h2 {
+                    width: 100%;
+                    font-size: 20px;
+                }
+                .sign-up__form__button {
+                    margin-top: 10px;
+                    padding: 10px;
+                    padding-bottom: 30px;
+                }
+            }
+        }
+        .main-container__footer {
+            width: 100%;
+            .footer__content {
+                margin-left: 0;
+                .footer__content__p {
+                    color: #414141;
+                    font-size: 16px;
+                    width: 100%;
+                    font-family: $open-sans;
+                }
+    
+                .footer-content__navbar {
+                    text-align: center;
+                    margin-top: 30px;
+                    flex-direction: column;
+                    margin: 0 auto;
+                    //margin-left: 20px;
+                    margin-top: 20px;
+                    width: 100%;
+    
+                    .footer-navbar__link {
+                        color: #414141;
+                        font-family: $open-sans;
+                        text-decoration: none;
+                        font-size: 14px;
+                        margin: 0 -20px;
+                    }
+                    .footer-navbar__social {
+                        margin: 0 auto;
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+    
     }
 }
