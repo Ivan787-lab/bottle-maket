@@ -776,4 +776,134 @@ $playfair-display: "Playfair Display";
             }
         }
     }
+    .main-container__sign-up {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 130px;
+
+        .sign-up__section-title {
+            display: flex;
+            padding: 25px;
+            box-sizing: border-box;
+            padding-left: 0;
+            .sign-up__section-title__svg {
+                display: flex;
+                width: max-content;
+                .sign-up__section-title__svg__three-circles {
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+            .section-title__text {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                position: relative;
+                left: 19%;
+                .section-title__text__h2 {
+                    font-weight: bold;
+                    font-size: 48px;
+                    font-family: $playfair-display;
+                    width: 675px;
+                    margin: 10px 0 10px 0;
+                }
+                .section-title__text__p {
+                    font-family: $open-sans;
+                    font-size: 20px;
+                    width: 565px;
+                    margin: 10px 0 10px 0;
+                }
+            }
+        }
+
+        .sign-up__form {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin-top: 200px;
+            height: 100px;
+            align-items: center;
+            box-sizing: border-box;
+            .sign-up__form__h2 {
+                text-align: center;
+                font-family: $playfair-display;
+                font-size: 48px;
+                font-weight: 700;
+                width: 633px;
+            }
+            .sign-up__form__button {
+                margin-top: 30px;
+                font-family: $open-sans;
+                box-sizing: border-box;
+                border-radius: 10px;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 20px;
+                color: #414141;
+                cursor: pointer;
+                outline: none;
+                background: #6aa089;
+                border: 1px solid #f7f7f4;
+                box-sizing: border-box;
+                border-radius: 10px;
+                color: white;
+                width: 217px;
+                padding: 15px;
+            }
+        }
+    }
+    .main-container__footer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 130px;
+        background-color: #f7f7f4;
+        .footer__content {
+            margin-left: 400px;
+
+            .footer__content__logo {
+                background: url(https://s3-alpha-sig.figma.com/img/336f/93bb/16d1b90dcb031c96a78491cdd8bc1443?Expires=1613952000&Signature=FUoocNzRFkb9EEV6jWklr1IgMygb3zzAPfdYK8Nx61Mv1TirnYgO7kWr0xmPL435~UMAMe0PDxjg9atN9~aJTTRw8J5mgp4IQCwgZSJjH-0dBQWxGhxkQ3oQUEB3Mx8zS5TsIC-mZ6aQ2HzOP8a9ecEmESpgSZljHWDN80AQMBXz08wbi6B9qpSYOh9c-ArUhNW6~Sb8z2rbJk17jUeTgl7rlLdAyEVYhXYx8eF3Rl4Mu2ov0efNWJlbFk~LVXG94x2r0WePO9NcbtnxjdhbG~i~5r4ce4iIBmf31Br-nugz1xmitujc--nm26fEb3jWnjk53dLCMcTS2qBEOAEqzg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA)
+                    center no-repeat;
+                background-size: contain;
+                height: 107px;
+                width: 97px;
+            }
+            .footer__content__p {
+                color: #414141;
+                font-size: 16px;
+                width: 546px;
+                font-family: $open-sans;
+            }
+
+            .footer-content__navbar {
+                margin-top: 30px;
+                display: flex;
+                justify-content: space-between;
+                width: 950px;
+                margin-left: 20px;
+
+                .footer-navbar__link {
+                    color: #414141;
+                    font-family: $open-sans;
+                    text-decoration: none;
+                    font-size: 14px;
+                    margin: 0 -20px;
+                }
+                .footer-navbar__social {
+                    margin-left: 50px;
+
+                    .footer-navbar__social__link {
+                        margin: 0 15px;
+                        color: #414141;
+                        font-family: $open-sans;
+                        text-decoration: none;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
 }

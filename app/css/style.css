@@ -879,3 +879,166 @@
         .main-container .main-container__section-motivation .section-motivation__elements .elements__feedback .feedback__p {
           width: 207px;
           margin: 10px 0 10px 0; }
+  .main-container .main-container__sign-up {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    margin-top: 130px; }
+    .main-container .main-container__sign-up .sign-up__section-title {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      padding: 25px;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      padding-left: 0; }
+      .main-container .main-container__sign-up .sign-up__section-title .sign-up__section-title__svg {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        width: -webkit-max-content;
+        width: -moz-max-content;
+        width: max-content; }
+        .main-container .main-container__sign-up .sign-up__section-title .sign-up__section-title__svg .sign-up__section-title__svg__three-circles {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -webkit-flex-direction: column;
+              -ms-flex-direction: column;
+                  flex-direction: column; }
+      .main-container .main-container__sign-up .sign-up__section-title .section-title__text {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        text-align: center;
+        position: relative;
+        left: 19%; }
+        .main-container .main-container__sign-up .sign-up__section-title .section-title__text .section-title__text__h2 {
+          font-weight: bold;
+          font-size: 48px;
+          font-family: "Playfair Display";
+          width: 675px;
+          margin: 10px 0 10px 0; }
+        .main-container .main-container__sign-up .sign-up__section-title .section-title__text .section-title__text__p {
+          font-family: "Open Sans";
+          font-size: 20px;
+          width: 565px;
+          margin: 10px 0 10px 0; }
+    .main-container .main-container__sign-up .sign-up__form {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      width: 100%;
+      margin-top: 200px;
+      height: 100px;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box; }
+      .main-container .main-container__sign-up .sign-up__form .sign-up__form__h2 {
+        text-align: center;
+        font-family: "Playfair Display";
+        font-size: 48px;
+        font-weight: 700;
+        width: 633px; }
+      .main-container .main-container__sign-up .sign-up__form .sign-up__form__button {
+        margin-top: 30px;
+        font-family: "Open Sans";
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        border-radius: 10px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 20px;
+        color: #414141;
+        cursor: pointer;
+        outline: none;
+        background: #6aa089;
+        border: 1px solid #f7f7f4;
+        box-sizing: border-box;
+        border-radius: 10px;
+        color: white;
+        width: 217px;
+        padding: 15px; }
+  .main-container .main-container__footer {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    margin-top: 130px;
+    background-color: #f7f7f4; }
+    .main-container .main-container__footer .footer__content {
+      margin-left: 400px; }
+      .main-container .main-container__footer .footer__content .footer__content__logo {
+        background: url(https://s3-alpha-sig.figma.com/img/336f/93bb/16d1b90dcb031c96a78491cdd8bc1443?Expires=1613952000&Signature=FUoocNzRFkb9EEV6jWklr1IgMygb3zzAPfdYK8Nx61Mv1TirnYgO7kWr0xmPL435~UMAMe0PDxjg9atN9~aJTTRw8J5mgp4IQCwgZSJjH-0dBQWxGhxkQ3oQUEB3Mx8zS5TsIC-mZ6aQ2HzOP8a9ecEmESpgSZljHWDN80AQMBXz08wbi6B9qpSYOh9c-ArUhNW6~Sb8z2rbJk17jUeTgl7rlLdAyEVYhXYx8eF3Rl4Mu2ov0efNWJlbFk~LVXG94x2r0WePO9NcbtnxjdhbG~i~5r4ce4iIBmf31Br-nugz1xmitujc--nm26fEb3jWnjk53dLCMcTS2qBEOAEqzg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA) center no-repeat;
+        background-size: contain;
+        height: 107px;
+        width: 97px; }
+      .main-container .main-container__footer .footer__content .footer__content__p {
+        color: #414141;
+        font-size: 16px;
+        width: 546px;
+        font-family: "Open Sans"; }
+      .main-container .main-container__footer .footer__content .footer-content__navbar {
+        margin-top: 30px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        width: 950px;
+        margin-left: 20px; }
+        .main-container .main-container__footer .footer__content .footer-content__navbar .footer-navbar__link {
+          color: #414141;
+          font-family: "Open Sans";
+          text-decoration: none;
+          font-size: 14px;
+          margin: 0 -20px; }
+        .main-container .main-container__footer .footer__content .footer-content__navbar .footer-navbar__social {
+          margin-left: 50px; }
+          .main-container .main-container__footer .footer__content .footer-content__navbar .footer-navbar__social .footer-navbar__social__link {
+            margin: 0 15px;
+            color: #414141;
+            font-family: "Open Sans";
+            text-decoration: none;
+            font-size: 14px; }
