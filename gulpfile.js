@@ -79,7 +79,7 @@ gulp.task('img', function () {
 
 gulp.task('prebuild',async function () {
     let build_css = gulp.src([
-            'app/css/style.css'
+            'app/css/style.css' , 'app/css/style.scss'
         ])
         .pipe(gulp.dest('dist/css'))
 
