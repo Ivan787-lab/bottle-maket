@@ -12,3 +12,4 @@ Landing page для тренировки навыков верстки
 - git
 
 ## Ссылка на сам макет => https://www.figma.com/file/XtMrQHONUOad2OMWqVzZks/Bottle
+
